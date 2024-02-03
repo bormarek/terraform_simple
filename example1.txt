@@ -1,0 +1,1 @@
+To jest zawartość pliku tekstowego, stworzonego przez Terraform.
