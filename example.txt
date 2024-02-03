@@ -1,1 +1,0 @@
-To jest prosty przykład użycia Terraforma na lokalnym serwerze.

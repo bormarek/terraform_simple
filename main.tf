@@ -1,7 +1,6 @@
 provider "local" {}
 
-resource "null_resource" "local_example" {
-  provisioner "local-exec" {
-    command = "echo 'To jest prosty przykład użycia Terraforma na lokalnym serwerze.' > example.txt"
-  }
+resource "local_file" "example" {
+  content  = "To jest zawartość pliku tekstowego, stworzonego przez Terraform."
+  filename = "example1.txt"
 }
